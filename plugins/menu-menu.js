@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
 try {
 let vn = './src/Miku/Hola.mp3'
-let pp = './src/Me.jpg'
+let pp = './src/Menu2.jpg'
 let img = await(await fetch('https://i.imgur.com/CD6MbGV.jpeg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
@@ -458,7 +458,7 @@ let buttons = [
 { buttonId: '.owner', buttonText: { displayText: '🧿ᴏᴡɴᴇʀ🏓' }, type: 1 },
 { buttonId: '.infobot', buttonText: { displayText: '🔮ɪɴꜰᴏʙᴏᴛ⛄' }, type: 1 }]
 let buttonMessage = {
-image: Menu2.jpg ,
+image: imagen3 ,
 caption: str.trim(),
 mentions: [m.sender],
 footer: `*${wm}*`,
