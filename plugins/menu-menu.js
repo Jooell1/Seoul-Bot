@@ -455,8 +455,8 @@ let str = `╭─────────────◆
 ┃ ✯╰───────────◆
 ╰━━━━━━━━━━━──⊷`.trim()
 let buttons = [
-{ buttonId: '/cuentasoficiales', buttonText: { displayText: '🧿ᴄᴜᴇɴᴛᴀs🏓' }, type: 1 },
-{ buttonId: '/grupos', buttonText: { displayText: '🔮ɢʀᴜᴘᴏs⛄' }, type: 1 }]
+{ buttonId: '.owner', buttonText: { displayText: '🧿ᴏᴡɴᴇʀ🏓' }, type: 1 },
+{ buttonId: '.infobot', buttonText: { displayText: '🔮ɪɴꜰᴏʙᴏᴛ⛄' }, type: 1 }]
 let buttonMessage = {
 image: imagen3 ,
 caption: str.trim(),
