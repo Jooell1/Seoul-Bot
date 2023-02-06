@@ -458,7 +458,7 @@ let buttons = [
 { buttonId: '.owner', buttonText: { displayText: '🧿ᴏᴡɴᴇʀ🏓' }, type: 1 },
 { buttonId: '.infobot', buttonText: { displayText: '🔮ɪɴꜰᴏʙᴏᴛ⛄' }, type: 1 }]
 let buttonMessage = {
-image: imagen3 ,
+image: Menu2.jpg ,
 caption: str.trim(),
 mentions: [m.sender],
 footer: `*${wm}*`,
@@ -473,7 +473,6 @@ mediaUrl: null,
 title: '🧿𝙈𝘼𝙁𝙐𝙔𝙐-𝘽𝙊𝙏🏓',
 body: null,
 thumbnail: img,
-sourceUrl: `https://youtu.be/HoxZuQokeMM`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 await conn.sendFile(m.chat, vn, 'Hola.mp3', null, m, true, { type: 'audioMessage', ptt: true})
