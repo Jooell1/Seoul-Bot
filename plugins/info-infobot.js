@@ -41,7 +41,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: nul
 title: '𝙸𝙽𝙵𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃',
 body: 'ᴍᴀꜰᴜʏᴜ-ʙᴏᴛ  ᷦ',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
-sourceUrl: `https://github.com/IdkJhus`}}})
+sourceUrl: `https://github.com/Jooell1/Mafuyu-bot`}}})
 }
 handler.help = ['infobot', 'speed']
 handler.tags = ['info', 'tools']
