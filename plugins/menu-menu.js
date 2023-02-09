@@ -454,7 +454,7 @@ await conn.sendFile(m.chat, vn, 'Hola.mp3', null, m, true, { type: 'audioMessage
 } catch {
 conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙴𝚂𝚃𝙰 𝚂𝙸𝙴𝙽𝙳𝙾 𝙴𝙽𝚅𝙸𝙰𝙳𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙴𝚂𝙿𝙴𝚁𝙴...*', m)
 }}
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|m|\?)$/i
+handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|m)$/i
 handler.exp = 50
 handler.fail = null
 export default handler
