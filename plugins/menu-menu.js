@@ -431,7 +431,7 @@ let str = `╭─────────────◆
 ╰━━━━━━━━━━━──⊷`.trim()
 let buttons = [
 { buttonId: '.owner', buttonText: { displayText: '🧿ᴏᴡɴᴇʀ🏓' }, type: 1 },
-{ buttonId: '.infobot', buttonText: { displayText: '🔮ɪɴꜰᴏʙᴏᴛ⛄' }, type: 1 }]
+{ buttonId: '.adquirir', buttonText: { displayText: '🔮🇦🇩🇶🇺🇮🇷🇮🇷⛄' }, type: 1 }]
 let buttonMessage = {
 image: imagen3 ,
 caption: str.trim(),
