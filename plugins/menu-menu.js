@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './src/Miku/Hola.mp3'
 let pp = './src/Me.jpg'
-let img = await(await fetch('file:///C:/Users/Hogar/Desktop/Mafuyu-Bot.jpeg')).buffer()
+let img = await(await fetch('https://i.imgur.com/lkch77g.jpg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
