@@ -9,7 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /^(Que mira bobo|anda paya|anda pa lla|anda pa alla bobo)$/i
-handler.fail = null
-handler.exp = 100
+handler.customPrefix = /Que mira bobo|anda paya|anda pa lla|anda pa alla bobo/
+handler.command = new RegExp
 export default handler
