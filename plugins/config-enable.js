@@ -127,6 +127,14 @@ throw false
 }}
 chat.antiLink2 = isEnable          
 break
+case 'modoadmin':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.modoadmin = isEnable          
+break
 case 'autosticker':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
@@ -193,15 +201,7 @@ global.dfail('rowner', m, conn)
 throw false
 }
 global.opts['swonly'] = isEnable
-break
-case 'modoadmin':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}
-chat.modoadmin = isEnable          
-break    
+break   
 default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage)
 throw false
