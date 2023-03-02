@@ -1,4 +1,4 @@
-# `𝙈𝘼𝙁𝙐𝙔𝙐-𝘽𝙊𝙏 `
+# `𝚂𝚎𝚘𝚞𝚕-𝙱𝚘𝚝 `
 
 ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
 <a href="http://wa.me/50257681618" target="blank"><img src="https://img.shields.io/badge/JHUSZ-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
@@ -35,8 +35,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/Jooell1/Mafuyu-bot
-> cd Mafuyu-bot
+> git clone https://github.com/Jooell1/Seoul-Bot
+> cd 𝚂𝚎𝚘𝚞𝚕-𝙱𝚘𝚝
 > yarn install 
 > npm install
 > npm update
@@ -47,7 +47,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Mafuyu-bot
+> cd 𝚂𝚎𝚘𝚞𝚕-𝙱𝚘𝚝
 > npm start
 ```
 
@@ -55,7 +55,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Mafuyu-bot
+> cd 𝚂𝚎𝚘𝚞𝚕-𝙱𝚘𝚝
 > rm -rf session.data.json
 > npm start
 ```
@@ -88,6 +88,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 ## `EDITOR Y PROPIETARIO DEL BOT` 
-`𝙈𝘼𝙁𝙐𝙔𝙐-𝘽𝙊𝙏 __________ By Joel?`
+`𝚂𝚎𝚘𝚞𝚕-𝙱𝚘𝚝 __________ By Joel?`
 
 
